@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="signup.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cont">
+        <h1>SignUp</h1>
+        <form class="signup" action="#" method="post">
+            <div class="name">
+                <label name="namelabel">Name : </label>
+                <input name="name" type="text" placeholder="Enter Your Name" required>
+            </div>
+            <div class="user">
+                <label name="username">Email : </label>
+                <input name="user" type="text" placeholder="Enter Your Email id" required>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="pass">
+                <label name="Password">Password : </label>
+                <input name="pass" type="password" placeholder="Enter Your Password" required>
+                <i class='bx bx-lock-open-alt'></i>
+            </div>
+            <div class="num">
+                <label name="Number">Mobile No: </label>
+                <input name="num" type="tel" maxlength="10" placeholder="Enter Your Mobile No">
+            </div>
+            <div class="bt">
+                <button name="lbt">Signup</button>
+            </div>
+            <div class="si">
+                <a>Already have a account?</a>
+                <button name="sbt"><a href="login.html"
+                        style="text-decoration: none;color: lightcoral;">Login</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

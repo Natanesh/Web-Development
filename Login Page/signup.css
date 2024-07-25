@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+}
+.cont {
+  padding: 20px;
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20px;
+}
+.cont h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.cont .user,
+.pass,
+.name,
+.num {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.user input,
+.pass input,
+.name input,
+.num input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+.user input::placeholder,
+.pass input::placeholder,
+.name input::placeholder,
+.num input::placeholder {
+  /* padding: 10px; */
+  color: white;
+}
+.user i,
+.pass i {
+  position: absolute;
+  right: 10px;
+  top: 65%;
+  transform: translate(-50%);
+  font-size: 20px;
+}
+.cont .bt button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.cont .si {
+  width: 100%;
+  text-align: right;
+  margin-top: 5%;
+}
+.cont .si button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: lightcoral;
+  cursor: pointer;
+}

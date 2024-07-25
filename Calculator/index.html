@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <h1>Calculator</h1>
+        </div>
+        <div class="text">
+            <input type="text" id="t1" disabled>
+        </div>
+        <!-- <div class="rem"><input type="button" value="X" onclick="remove()"></div> -->
+        <div class="button">
+            <input type="button" value="" onclick="" class="one">
+            <input type="button" value="" onclick="" class="two">
+            <input type="button" value="X" onclick="remove()">
+            <input type="button" value="1" onclick="getInput(1)">
+            <input type="button" value="2" onclick="getInput(2)">
+            <input type="button" value="3" onclick="getInput(3)">
+            <input type="button" value="4" onclick="getInput(4)">
+            <input type="button" value="5" onclick="getInput(5)">
+            <input type="button" value="6" onclick="getInput(6)">
+            <input type="button" value="7" onclick="getInput(7)">
+            <input type="button" value="8" onclick="getInput(8)">
+            <input type="button" value="9" onclick="getInput(9)">
+            <input type="button" value="0" onclick="getInput(0)">
+            <input type="button" value="." onclick="getInput('.')">
+            <input type="button" value="+" onclick="getInput('+')">
+            <input type="button" value="-" onclick="getInput('-')">
+            <input type="button" value="*" onclick="getInput('*')">
+            <input type="button" value="/" onclick="getInput('/')">
+            <input type="button" value="Mod" onclick="getInput('%')">
+            <input type="button" value="=" onclick="result()">
+            <input type="button" value="C" onclick="clearall()">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
